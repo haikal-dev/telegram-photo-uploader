@@ -11,7 +11,7 @@ if __name__ == "__main__":
     photo_url = sys.argv[1]
     files={'photo':open(photo_url, 'rb')}
 
-    token = "xxx"
-    receiver = "123"
+    token = "<TELEGRAM_BOT_TOKEN>"
+    receiver = "<YOUR_TELEGRAM_ID>"
 
     resp = requests.post(f"https://api.telegram.org/bot{token}/sendPhoto?chat_id={receiver}",files=files)
