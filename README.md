@@ -16,14 +16,14 @@ This script allows you to send a photo to a specified Telegram chat using the Te
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/telegram-photo-uploader.git
+    git clone https://github.com/haikal-dev/telegram-photo-uploader.git
     cd telegram-photo-uploader
     ```
 
 2. Install the required Python library:
 
     ```bash
-    pip install requests
+    pip3 install requests
     ```
 
 ## Usage
